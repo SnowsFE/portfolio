@@ -1,4 +1,4 @@
-import mainSrc from "./images/snoer.png";
+import mainSrc from "./images/snoer.jpg";
 
 const size = {
   mobile: "720px",
