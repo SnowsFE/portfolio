@@ -123,23 +123,23 @@ const portfolioData = {
       ],
     },
     {
-      name: "Hanssem Mobile Renewal",
-      project: "Freelancer",
-      logo: "hanssem",
-      period: "2020.09 - 2020.11",
-      percent: "45%",
-      link: "http://mall.hanssem.com/m/main.html?module=home",
+      name: "MineRank",
+      project: "MineRank",
+      logo: "#",
+      period: "2024.08 - ing",
+      percent: "기획중...",
+      link: "#",
       description:
-        "한샘몰 모바일 리뉴얼 작업하였습니다. 모바일 페이지를 전체 리뉴얼 작업을 하였습니다. 각 요소들을 컴포넌트화 시켜서 작업하였습니다.",
+        "웹 사이트 요소를 독특하고 일관성있게 컴포넌트화 시켜 개발할 예정입니다..",
       tech: ["Html & CSS", "Javascript", "SVN", "Zeplin"],
       image: [
         {
-          name: "hanssem/main.png",
+          name: "#",
           tit: "",
           desc: "",
         },
         {
-          name: "hanssem/main2.png",
+          name: "#",
           tit: "",
           desc: "",
         },
