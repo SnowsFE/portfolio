@@ -58,7 +58,14 @@ class PortfolioMain extends Component {
                   <img src="./images/logo/Muzinut.png" alt="Muzinut Icon" />
                 </div>
               )}
-
+              {list.project === "MineRanking" && (
+                <div className="mineranking">
+                  <img
+                    src="./images/logo/Endcrystal.png"
+                    alt="MineRanking Icon"
+                  />
+                </div>
+              )}
               <div className="info-wrap">
                 <div className="txt-wrap">
                   <div className="name">{list.name}</div>
@@ -206,7 +213,8 @@ const StyledPortWrap = styled.div`
           padding: 20px;
           pointer-events: none;
           .community,
-          .muzinut {
+          .muzinut,
+          .mineranking {
             position: absolute;
             top: 20px;
             right: 20px;

@@ -21,11 +21,14 @@ const skillData = {
       icon: "fab fa-js-square",
     },
     {
-      label: "Node.js",
+      label: "Java",
       detail: [
-        "React 애플리케이션을 Node.js 서버에서 호스팅하여 동작시켜본 경험이 있습니다.",
+        "객체지향 프로그래밍에 대한 이해와 설계 패턴을 활용할 수 있습니다.",
+        "파일 입출력, 예외 처리, 스레드, 컬렉션 등의 자바 핵심 기능 사용할 수 있습니다.",
+        "JavaFX를 활용한 GUI 개발 경험이 있습니다.",
+        "JDBC를 사용한 데이터베이스 연동 및 트랜잭션 처리가 가능합니다.",
       ],
-      icon: "fab fa-node",
+      icon: "fab fa-java",
     },
     {
       label: "React",
@@ -55,21 +58,48 @@ const skillData = {
       ],
       icon: "fab fa-git-square",
     },
+    {
+      label: "Node.js",
+      detail: [
+        "React 애플리케이션을 Node.js 서버에서 호스팅하여 동작시켜본 경험이 있습니다.",
+      ],
+      icon: "fab fa-node",
+    },
+    {
+      label: "MySQL",
+      detail: [
+        "MySQL을 사용한 데이터베이스 설계 및 최적화가 가능합니다.",
+        "CRUD(Create, Read, Update, Delete)기능 구현을 통한 데이터 처리가 가능합니다.",
+        "복잡한 SQL 쿼리 작성 및 인덱스, 조인 등을 활용한 성능 향상 경험이 있습니다.",
+        "JDBC를 통한 자바 애플리케이션과 MySQL의 연동 경험이 있습니다.",
+      ],
+      icon: "fas fa-database",
+    },
+    {
+      label: "H2 Database",
+      detail: [
+        "H2를 사용한 데이터베이스 설정 및 연동 경험이 있습니다.",
+        "메모리 모드 및 파일 모드를 활용한 임시 데이터 저장 및 빠른 데이터베이스 체크 경험이 있습니다.",
+        "JDBC를 통한 H2 데이터베이스와 자바 애플리케이션 연동 경험이 있습니다.",
+        "SQL 쿼리 작성 및 데이터베이스 초기화 작업 수행을 해본 경험이 있습니다.",
+      ],
+      icon: "fas fa-database",
+    },
   ],
 
   experienceList: [
-    {
-      period: "2023.2 - 2024.1",
-      position: "Core Education",
-      company: "KG ITBANK",
-      explain: `KG ITBANK에서 1년 동안 다양한 기술 스택(Python, C, 자료구조, JAVA, JSP, 리눅스, 네트워크, HTML/CSS, Spring Framework, Jquery)을 학습하며 실무 기술과 CS지식의 기초적인 개념을 강화하였습니다.`,
-    },
     {
       period: "2024.1 - 2024.6",
       position: "Full Stack Developer Education",
       company: "KG ITBANK",
       explain:
         "프론트엔드 전문 학원은 주로 프론트엔드 기술만을 집중적으로 다루기 때문에, 백엔드 기술이나 API 통신 경험이 부족할 수 있다는 우려가 있었습니다. 이를 보완하기 위해 KG ITBANK에서 풀스택 개발 과정을 선택하여 백엔드에 대한 이해를 높였고, 그 결과 프론트엔드 개발자로서 백엔드 팀과 효과적으로 협업할 수 있는 능력을 갖추게 되었습니다.",
+    },
+    {
+      period: "2023.2 - 2024.1",
+      position: "Core Education",
+      company: "KG ITBANK",
+      explain: `KG ITBANK에서 1년 동안 다양한 기술 스택(Python, C, 자료구조, JAVA, JSP, 리눅스, 네트워크, HTML/CSS, Spring Framework, Jquery)을 학습하며 실무 기술과 CS지식의 기초적인 개념을 강화하였습니다.`,
     },
   ],
 

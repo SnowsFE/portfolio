@@ -123,15 +123,23 @@ const portfolioData = {
       ],
     },
     {
-      name: "MineRank",
-      project: "MineRank",
-      logo: "#",
+      name: "MineRanking",
+      project: "MineRanking",
+      logo: "MineRanking",
       period: "2024.08 - ing",
       percent: "기획중...",
       link: "#",
       description:
-        "웹 사이트 요소를 독특하고 일관성있게 컴포넌트화 시켜 개발할 예정입니다..",
-      tech: ["Html & CSS", "Javascript", "SVN", "Zeplin"],
+        "마인크래프트 Crystal PVP 랭킹 사이트로, 심사, 커뮤니티, 장터, 사다리타기 등의 기능을 제공할 예정입니다. 웹 사이트의 요소들을 독창적이고 일관성 있게 컴포넌트화하여 개발할 계획입니다.",
+      tech: [
+        "Html & CSS",
+        "Javascript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Redis",
+        "JWT",
+      ],
       image: [
         {
           name: "#",

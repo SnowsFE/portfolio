@@ -32,12 +32,12 @@ function Header(props) {
             <i className="fas fa-tasks"></i>
           </Link>
         </li>
-        <li className={props.page === "blog" ? "active" : ""}>
+        {/* <li className={props.page === "blog" ? "active" : ""}>
           <Link to="/blog">
             <span>Blog</span>
             <i className="fas fa-book"></i>
           </Link>
-        </li>
+        </li> */}
         <li>
           {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a href="https://github.com/SnowsFE" target="_blank">
