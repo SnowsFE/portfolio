@@ -61,9 +61,20 @@ const skillData = {
     {
       label: "Node.js",
       detail: [
-        "React 애플리케이션을 Node.js 서버에서 호스팅하여 동작시켜본 경험이 있습니다.",
+        "React 애플리케이션을 Node.js 서버에서 호스팅한 경험이 있습니다.",
+        "Node.js를 사용하여 백엔드 작업과 MongoDB 연결, 스키마 생성 및 DB 구성 경험이 있습니다.",
+        "배포까지 포함한 전체 개발 프로세스를 경험했습니다.",
       ],
       icon: "fab fa-node",
+    },
+    {
+      label: "MongoDB",
+      detail: [
+        "MongoDB 클러스터를 생성하고 네트워크 IP 추가 및 관리한 경험이 있습니다.",
+        "MongoDB의 스키마 설계, 데이터베이스 구성 및 연결을 설정한 경험이 있습니다.",
+        "Node.js와 MongoDB를 연동하여 백엔드 작업을 수행한 경험이 있습니다.",
+      ],
+      icon: "fas fa-database",
     },
     {
       label: "MySQL",
@@ -84,6 +95,42 @@ const skillData = {
         "SQL 쿼리 작성 및 데이터베이스 초기화 작업 수행을 해본 경험이 있습니다.",
       ],
       icon: "fas fa-database",
+    },
+    {
+      label: "GCP (Google Cloud Platform)",
+      detail: [
+        "GCP Shell 환경에서 Nginx를 사용하여 웹 서버를 설정하고 구성한 경험이 있습니다.",
+        "Google Cloud Compute Engine을 사용하여 가상 머신을 생성하고 관리한 경험이 있습니다.",
+        "Google Cloud Storage를 활용하여 데이터를 저장 및 관리한 경험이 있습니다.",
+        "Cloud Monitoring을 통해 서버의 상태를 모니터링하고 로그를 관리한 경험이 있습니다.",
+      ],
+      icon: "fab fa-google",
+    },
+    {
+      label: "Ubuntu",
+      detail: [
+        "Ubuntu 서버 환경에서 웹 애플리케이션을 호스팅한 경험이 있습니다.",
+        "Nginx를 사용하여 웹 서버를 설정하고 관리한 경험이 있습니다.",
+        "SSH를 활용한 원격 서버 접속 및 관리 경험이 있습니다.",
+        "Ubuntu 환경에서 패키지 관리 도구(apt)를 사용하여 소프트웨어를 설치 및 관리할 수 있습니다.",
+        "방화벽(UFW) 설정 및 서버 보안 작업을 수행한 경험이 있습니다.",
+      ],
+      icon: "fab fa-linux",
+    },
+    {
+      label: "PM2",
+      detail: [
+        "GCP에서 Node.js 서버를 PM2로 관리하며 자동 재시작 기능을 설정한 경험이 있습니다.",
+        "Node.js 애플리케이션의 성능 모니터링과 로그 관리 기능을 PM2를 통해 설정한 경험이 있습니다.",
+      ],
+      icon: "fas fa-cogs",
+    },
+    {
+      label: "Terbot",
+      detail: [
+        "Terbot을 활용해 자동화된 작업을 처리하고 배포 및 관리한 경험이 있습니다.",
+      ],
+      icon: "fas fa-robot",
     },
   ],
 
