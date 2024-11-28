@@ -134,8 +134,8 @@ const portfolioData = {
     },
     {
       name: "Minecraft 랭킹 사이트",
-      project: "CPVP.KR",
-      logo: "CPVP",
+      project: "cpvp",
+      logo: "cpvp",
       period: "2024.08 - 2024.11",
       percent: "100%",
       link: "https://www.cpvp.kr",
@@ -154,52 +154,52 @@ const portfolioData = {
       ],
       image: [
         {
-          name: "CPVP/main.png",
+          name: "cpvp/main.png",
           tit: "메인페이지",
           desc: "유저들은 자신의 랭킹을 조회할 수 있으며 sort 기능을 이용하여 종합, 평엔, 나락 각각 개별로 자신의 랭킹을 조회할 수 있습니다. 또한 검색, 신청, 닉네임 등록, 심사위원(랭크업 테스터), 디스코드로 이동을 할 수 있습니다.",
         },
         {
-          name: "CPVP/search.png",
+          name: "cpvp/search.png",
           tit: "유저 검색",
           desc: "검색창에 자신의 닉네임 또는 검색하려는 유저의 닉네임을 입력하면, 해당 유저의 랭킹 위치로 스크롤이 이동하도록 구현하였습니다. 이를 위해 keydown 이벤트 핸들러와 scrollIntoView 메서드를 활용하였습니다.",
         },
         {
-          name: "CPVP/apply.png",
+          name: "cpvp/apply.png",
           tit: "신청",
           desc: "유저들은 랭크업을 위해서 신청서를 제출할 수 있으며 아이피당 하루(24시간)에 한 번만 신청서를 제출할 수 있습니다. 신청서는 리액트 퀼을 이용해 구현하였습니다.",
         },
         {
-          name: "CPVP/nickname.png",
+          name: "cpvp/nickname.png",
           tit: "닉네임 등록",
           desc: "유저들은 자신의 마인크래프트 닉네임을 사이트에 등록할 수 있습니다. 정규식을 이용하여 명확한 닉네임 작성을 유도하였고, Mojang API를 활용하여 존재하지 않는 닉네임이면 등록할 수 없도록 구현하였습니다.",
         },
         {
-          name: "CPVP/judge.png",
+          name: "cpvp/judge.png",
           tit: "심사위원",
           desc: "유저들의 랭킹을 심사할 테스터입니다. 유튜브 커뮤니티에 모집 공고를 올려 테스터를 직접 뽑았습니다.",
         },
         {
-          name: "CPVP/discord.png",
+          name: "cpvp/discord.png",
           tit: "디스코드",
           desc: "왼쪽 하단에 있는 디스코드 아이콘을 클릭하면 새 창이 열리며 이곳으로 이동됩니다.",
         },
         {
-          name: "CPVP/admin.png",
+          name: "cpvp/admin.png",
           tit: "어드민 페이지",
           desc: "유저가 제출한 신청서를 어드민 페이지에서 확인할 수 있으며, 유저 관리를 통해 유저 정보 업데이트가 가능합니다.",
         },
         {
-          name: "CPVP/userinfo.png",
+          name: "cpvp/userinfo.png",
           tit: "유저 정보",
           desc: "유저 관리에서는 모든 유저를 확인할 수 있으며 검색 필터를 통해 해당하는 유저의 닉네임을 검색할 수 있습니다. 웹킷을 통해 스크롤을 구현하였습니다.",
         },
         {
-          name: "CPVP/userupdate.png",
+          name: "cpvp/userupdate.png",
           tit: "유저 랭킹 업데이트",
           desc: "PATCH 메서드를 통해 유저 정보를 수정하여 업데이트 할 수 있는 기능을 구현하였습니다.",
         },
         {
-          name: "CPVP/detailapply.png",
+          name: "cpvp/detailapply.png",
           tit: "신청서 상세페이지",
           desc: "유저 신청서 데이터를 useLocation을 통해 가져오고, useParams를 사용하여 상세페이지를 구현했습니다.",
         },
