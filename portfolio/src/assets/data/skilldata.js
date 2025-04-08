@@ -68,6 +68,26 @@ const skillData = {
       icon: "fab fa-node",
     },
     {
+      label: "MSSQL",
+      detail: [
+        "쿼리 튜닝을 통해 성능을 최적화하고 필요한 데이터만 효율적으로 추출할 수 있습니다.",
+        "복잡한 JOIN, 서브쿼리, 인덱싱 기법을 활용하여 데이터베이스 성능을 향상시킬 수 있습니다.",
+        "저장 프로시저(Stored Procedure)와 트리거(Trigger)를 설계하고 구현한 경험이 있습니다.",
+        "트랜잭션 관리와 데이터 무결성을 유지하기 위한 제약 조건 설정이 가능합니다.",
+      ],
+      icon: "fas fa-database",
+    },
+    {
+      label: "클래식 ASP",
+      detail: [
+        "ASP를 사용하여 서버 사이드 렌더링 기반의 웹 애플리케이션을 개발한 경험이 있습니다.",
+        "MSSQL과 연동하여 데이터를 효율적으로 처리하고 표현하는 웹 페이지를 구현할 수 있습니다.",
+        "저장 프로시저를 활용하여 백엔드 로직을 구현하고 데이터 처리 효율성을 높인 경험이 있습니다.",
+        "세션 관리와 쿠키를 활용한 사용자 인증 시스템을 구현할 수 있습니다.",
+      ],
+      icon: "fas fa-code",
+    },
+    {
       label: "MongoDB",
       detail: [
         "MongoDB 클러스터를 생성하고 네트워크 IP 추가 및 관리한 경험이 있습니다.",
@@ -135,6 +155,13 @@ const skillData = {
   ],
 
   experienceList: [
+    {
+      period: "2024.12 ~ ing",
+      position: "Web Developer",
+      company: "한국교육평가원",
+      explain:
+        "LMS(학습관리시스템)를 MSSQL-DB를 활용하여 구축하고, 쿼리 튜닝을 통해 사이트의 속도를 최적화했습니다. 클래식 ASP를 사용하여 서버 사이드 렌더링 기반의 관리자 페이지를 개발하였으며, 관리자들의 업무 효율성을 높이기 위한 다양한 기능들을 구현했습니다. HTML/CSS를 활용한 퍼블리싱 작업으로 UX 측면에서 사용자 경험을 개선하여 시스템의 사용성과 접근성을 향상시켰습니다.",
+    },
     {
       period: "2024.1 - 2024.6",
       position: "Full Stack Developer Education",
